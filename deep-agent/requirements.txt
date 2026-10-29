@@ -1,0 +1,21 @@
+# ---- Web 层 ----
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30
+sse-starlette>=2.1
+python-multipart>=0.0.9
+
+# ---- 配置 ----
+pydantic>=2.7
+pydantic-settings>=2.3
+python-dotenv>=1.0
+
+# ---- Agent 框架 ----
+# deepagents 自带：主 agent 编排、子 agent(task)、write_todos、虚拟文件系统
+deepagents>=0.0.5
+langgraph>=0.2.60
+langchain>=0.3.0
+langchain-core>=0.3.0
+
+# ---- 模型 provider（按需保留，不用哪个就删掉哪个）----
+langchain-openai>=0.2.0
+langchain-anthropic>=0.2.0
