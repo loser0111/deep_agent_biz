@@ -1,0 +1,12 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.51-trip",
+  "base_commit_sha": "47de025185bd86aa2656fd0e06ab6d4f3f0e7dfe",
+  "prompts": {},
+  "humans": {
+    "h_82b3248fceb535": {
+      "author": "wangyongqing <wangyongqing@trip.com>"
+    }
+  }
+}
